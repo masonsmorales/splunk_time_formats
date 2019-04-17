@@ -2,3 +2,7 @@ example_time,splunk_time_format,description
 2018-11-03T16:47:28.254283-04:00,%FT%T.%6Q%:z,rfc3339 date format
 1484993700,%s,unix epoch timestamp
 2018-11-04,%F,iso8601 date format
+05/Apr/2019:15:03:36,%d/%b/%Y:%Tdate +"%d/%b/%Y:%T"
+05/Apr/2019:15:03:36 -0400,%d/%b/%Y:%T %z,date +"%d/%b/%Y:%T %z"
+05.04.2019 00:01:00.299,%d.%m.%Y %T.%3N,date +"%d.%m.%Y %T.%3N"
+04.04.2019 00:01:00,%d.%m.%Y %T,date +"%d.%m.%Y %T”
