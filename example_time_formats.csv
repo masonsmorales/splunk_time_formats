@@ -6,3 +6,4 @@ Example_Timestamp,TIME_FORMAT,MAX_TIMESTAMP_LOOKAHEAD,TIME_PREFIX,Description
 05/Apr/2019:15:03:36 -0400,%d/%b/%Y:%T %z,26,^,date +"%d/%b/%Y:%T %z"
 05.04.2019 00:01:00.299,%d.%m.%Y %T.%3N,23,^,date +"%d.%m.%Y %T.%3N"
 04.04.2019 00:01:00,%d.%m.%Y %T,19,^,date +"%d.%m.%Y %T”
+2020-07-27T09:00:09.214Z,%FT%T.%3Q%Z
